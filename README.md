@@ -1,8 +1,10 @@
-# docker-compose for nodejs
+# docker-compose-tool for nodejs
 
 *Note: This is still a very early stage project*
 
-This is a simple library for controlling docker-compose from node.
+This is a simple library for controlling docker-compose from node. The goal is
+to eventually provide access to all the commands of `docker-compose` from within
+NodeJS.
 
 This repo is based off the excellent [node-flowtype-boilerplate](https://github.com/jsynowiec/node-flowtype-boilerplate).
 
@@ -55,7 +57,7 @@ Start one or more services. Equivalent to `docker-compose up [services]`.
 
 Promise resolves when `up` is complete, which is not necessarily when the
 container finishes (the -d flag is used by default, running `up` as a daemon.
-Use compose.logs to watch for the exit.
+Use `compose.logs` to watch for the exit.
 
 ### compose.down(services: ?string|Array<string>, options: ?ServiceOptions): Promise
 
