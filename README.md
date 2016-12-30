@@ -75,3 +75,11 @@ Promise resolves after spawning command (basically instantly).
 
 `onMessage` will receive a string line from `docker-compose logs`. Each line will be returned
 individually.
+
+## Contributing
+
+Contributions via pull requests are welcome. If you find a problem please [file an issue](http://github.com/seveibar/docker-compose/issues).
+
+### Running Tests
+
+Just run `npm test` or `yarn test`.
