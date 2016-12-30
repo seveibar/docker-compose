@@ -4,6 +4,8 @@
 
 This is a simple library for controlling docker-compose from node.
 
+This repo is based off the excellent [node-flowtype-boilerplate](https://github.com/jsynowiec/node-flowtype-boilerplate).
+
 ## Why
 
 Controlling `docker-compose` from node allows for multi-container integration
