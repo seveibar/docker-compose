@@ -1,0 +1,55 @@
+{
+  "extends": "airbnb-base",
+  "parser": "babel-eslint",
+  "env": {
+    "jest": true,
+    "jasmine": true
+  },
+  "plugins": [
+    "flowtype",
+    "no-async-without-await"
+  ],
+  "rules": {
+    "max-len": [
+      2,
+      120
+    ],
+    "prefer-arrow-callback": 0,
+    "arrow-parens": [
+      1
+    ],
+    "flowtype/require-valid-file-annotation": [
+      1,
+      "always"
+    ],
+    "no-extra-semi": 1,
+    "semi": 0,
+    "no-trailing-spaces": 1,
+    "camelcase": 1,
+    "quotes": 0,
+    "no-unused-vars": 1,
+    "import/prefer-default-export": 1,
+    "padded-blocks": 1,
+    "flowtype/space-after-type-colon": [
+      1,
+      "always"
+    ],
+    'one-var': 1,
+    'one-var-declaration-per-line':1,
+    'trailing-comma': 0,
+    'comma-dangle': 0,
+    "keyword-spacing": 1,
+    "space-before-blocks": [1],
+    'no-underscore-dangle': 0,
+    "flowtype/require-return-type": [
+      1,
+      "always",
+      {
+        "excludeArrowFunctions": true
+      }
+    ],
+    'no-console': 0,
+    "no-use-before-define": 0,
+    "no-async-without-await/no-async-without-await": 0
+  }
+}

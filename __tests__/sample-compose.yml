@@ -1,0 +1,8 @@
+version: '2'
+services:
+  hello_world:
+    image: alpine
+    command: 'echo "hello world"'
+  sleeper_hello:
+    image: alpine
+    command: '/bin/sh -c "sleep 2; echo \"morning\""'
