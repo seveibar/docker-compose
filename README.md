@@ -32,6 +32,8 @@ compose.up('hello_world_service').then(() => {
 })
 ```
 
+## API
+
 ### new DockerCompose(options)
 
 Create a new `DockerCompose` instance. Each `DockerCompose` instance has a
