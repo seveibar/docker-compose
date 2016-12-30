@@ -13,7 +13,7 @@ This repo is based off the excellent [node-flowtype-boilerplate](https://github.
 Controlling `docker-compose` from node allows for multi-container integration
 tests and automation of command line tasks from node.
 
-## Getting States
+## Getting Started
 
 ### Quick Example
 
